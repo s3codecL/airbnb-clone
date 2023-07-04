@@ -1,0 +1,9 @@
+COMANDOS
+ALT + C => Cancelar
+ALT + D => Finalizar tarea y contador de tiempo
+ALT + S => Inicia contador de tiempo
+CTRL + ENTER => Crea tarea (checkbox)
+Configuración ambiente:
+    ✔ GIT INIT @done(23-07-04 17:17)
+    ✔ INSTALAR NEXT.JS => npx create-next-app --typescript @done(23-07-04 17:19)
+    ✔ Ejecutar sitio con comando => npm run dev @started(23-07-04 17:19) @done(23-07-04 17:20) @lasted(1m16s)
