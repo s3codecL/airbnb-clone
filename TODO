@@ -7,3 +7,28 @@ Configuración ambiente:
     ✔ GIT INIT @done(23-07-04 17:17)
     ✔ INSTALAR NEXT.JS => npx create-next-app --typescript @done(23-07-04 17:19)
     ✔ Ejecutar sitio con comando => npm run dev @started(23-07-04 17:19) @done(23-07-04 17:20) @lasted(1m16s)
+    
+Cleanup sobre app:
+    ✔ page.tsx (eliminar main - crear div) @done(23-07-04 19:06)
+    ✔ layout.tsx (cambiar title - description) @done(23-07-04 19:06)
+     ✔ import { Nunito } from "next/font/google"; @done(23-07-04 19:06)
+     ✔ crear const font = Nunito - className (body) @done(23-07-04 19:06)
+    ✔ globals.css (clean all) @done(23-07-04 19:06)
+    ✔ delete page.module.css @done(23-07-04 19:06)
+Configuración ambiente.p2:
+    ✔ INSTALAR TAILWIND CSS => npm install -D tailwindcss postcss autoprefixer @done(23-07-04 19:15)
+     ✔ ejecutar comando => npx tailwindcss init -p (created Tailwindcss ...  created PostCSS ...) @done(23-07-04 19:15)
+    ✔ VALIDAR postcss.config.js - tailwind.config.js - globals.css @done(23-07-04 19:18)
+    ✔ CONFIGURE tailwind.config.js (configure template paths) @done(23-07-04 19:20)
+        ✔ './app/**/*.{js,ts,jsx,tsx,mdx}', './pages/**/*.{js,ts,jsx,tsx,mdx}', './components/**/*.{js,ts,jsx,tsx,mdx}', @done(23-07-04 19:21)
+    ✔ ADD globals.css (add tailwind directives) @done(23-07-04 19:23)
+        ✔ @tailwind base; @tailwind components; @tailwind utilities; @done(23-07-04 19:23)
+    ✔ EXECUTE npm run dev @done(23-07-04 19:26)
+Sobre app:
+    ✔ ADD className (div) @done(23-07-04 19:29)
+        ✔ text-rose-500 text-2xl @done(23-07-04 19:29)
+    ☐ 
+
+
+
+    
