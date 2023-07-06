@@ -7,3 +7,58 @@ Configuración ambiente:
     ✔ GIT INIT @done(23-07-04 17:17)
     ✔ INSTALAR NEXT.JS => npx create-next-app --typescript @done(23-07-04 17:19)
     ✔ Ejecutar sitio con comando => npm run dev @started(23-07-04 17:19) @done(23-07-04 17:20) @lasted(1m16s)
+    
+Cleanup sobre app:
+    ✔ page.tsx (eliminar main - crear div) @done(23-07-04 19:06)
+    ✔ layout.tsx (cambiar title - description) @done(23-07-04 19:06)
+        ✔ import { Nunito } from "next/font/google"; @done(23-07-04 19:06)
+        ✔ crear const font = Nunito - className (body) @done(23-07-04 19:06)
+    ✔ globals.css (clean all) @done(23-07-04 19:06)
+    ✔ delete page.module.css @done(23-07-04 19:06)
+
+Configuración ambiente.p2:
+    ✔ INSTALAR TAILWIND CSS => npm install -D tailwindcss postcss autoprefixer @done(23-07-04 19:15)
+        ✔ ejecutar comando => npx tailwindcss init -p (created Tailwindcss ...  created PostCSS ...) @done(23-07-04 19:15)
+    ✔ VALIDAR postcss.config.js - tailwind.config.js - globals.css @done(23-07-04 19:18)
+    ✔ CONFIGURE tailwind.config.js (configure template paths) @done(23-07-04 19:20)
+        ✔ './app/**/*.{js,ts,jsx,tsx,mdx}', './pages/**/*.{js,ts,jsx,tsx,mdx}', './components/**/*.{js,ts,jsx,tsx,mdx}', @done(23-07-04 19:21)
+    ✔ ADD globals.css (add tailwind directives) @done(23-07-04 19:23)
+        ✔ @tailwind base; @tailwind components; @tailwind utilities; @done(23-07-04 19:23)
+    ✔ EXECUTE npm run dev @done(23-07-04 19:26)
+    
+Creación Navbar app/navbar:
+    ✔ ADD className (div) @done(23-07-04 19:29)
+        ✔ text-rose-500 text-2xl @done(23-07-04 19:29)
+    ✔ CREATE (app/Components) @done(23-07-05 14:56)
+        ✔ (Navbar.tsx) /navbar/Navbar realizar import Container @done(23-07-05 14:56)
+        ✔ (Container.tsx) /components/Container interface, const, export default @done(23-07-05 14:56)
+        ✔ (Logo.tsx) navbar/Logo @done(23-07-05 15:24)
+    ✔ CREATE (folder images) /public/images @done(23-07-05 15:39)
+        ✔ ADD logo.png @done(23-07-05 15:39)
+    ✔ CREATE (Search.tsx) /navbar/Search @done(23-07-05 15:40)
+        ✔ INSTALL npm install react-icons @done(23-07-05 15:43)
+        ✔ CREATE 3 div (anywhere, ane week, add guest) @done(23-07-05 16:03)
+        ✔ import { BiSearch } from 'ract-icons/bi'; @done(23-07-05 16:03)
+    ✔ CREATE (UserMenu.tsx) /navbar/UserMenu @done(23-07-05 16:05)
+        ✔ CREATE div => div => div user Menu @done(23-07-05 17:14)
+        ✔ CREATE icon burger (react-icon) @done(23-07-05 17:19)
+    ✔ CREATE (Avatar.tsx) components/Avatar @done(23-07-05 17:21)
+        ✔ import Image from "next/image"; @done(23-07-05 17:29)
+        ✔ ADD image (placeholder.jpg) @done(23-07-05 17:35)
+    ✔ CREATE (MenuItem.tsx) navbar/MenuItem @done(23-07-05 23:59)
+        ✔ (MenuItem.tsx) navbar/MenuItem interface, const, export default @done(23-07-06 00:04)
+    ✔ ADD-modal (UserMenu.tsx) /navbar/UserMenu  MenuItem, onClick, label (Login, Sign up) @done(23-07-06 00:10)
+        ✔ fin navbar @done(23-07-06 00:14)
+
+
+
+
+
+
+    
+
+
+
+
+
+    
