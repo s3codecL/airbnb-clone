@@ -7,7 +7,6 @@ Configuración ambiente:
     ✔ GIT INIT @done(23-07-04 17:17)
     ✔ INSTALAR NEXT.JS => npx create-next-app --typescript @done(23-07-04 17:19)
     ✔ Ejecutar sitio con comando => npm run dev @started(23-07-04 17:19) @done(23-07-04 17:20) @lasted(1m16s)
-    
 Cleanup sobre app:
     ✔ page.tsx (eliminar main - crear div) @done(23-07-04 19:06)
     ✔ layout.tsx (cambiar title - description) @done(23-07-04 19:06)
@@ -49,16 +48,3 @@ Creación Navbar app/navbar:
         ✔ (MenuItem.tsx) navbar/MenuItem interface, const, export default @done(23-07-06 00:04)
     ✔ ADD-modal (UserMenu.tsx) /navbar/UserMenu  MenuItem, onClick, label (Login, Sign up) @done(23-07-06 00:10)
         ✔ fin navbar @done(23-07-06 00:14)
-
-
-
-
-
-
-    
-
-
-
-
-
-    
