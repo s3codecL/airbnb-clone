@@ -25,7 +25,7 @@ Configuración ambiente.p2:
         ✔ @tailwind base; @tailwind components; @tailwind utilities; @done(23-07-04 19:23)
     ✔ EXECUTE npm run dev @done(23-07-04 19:26)
     
-Creación Navbar app/navbar:
+Creación Navbar UI app/navbar:
     ✔ ADD className (div) @done(23-07-04 19:29)
         ✔ text-rose-500 text-2xl @done(23-07-04 19:29)
     ✔ CREATE (app/Components) @done(23-07-05 14:56)
@@ -48,3 +48,33 @@ Creación Navbar app/navbar:
         ✔ (MenuItem.tsx) navbar/MenuItem interface, const, export default @done(23-07-06 00:04)
     ✔ ADD-modal (UserMenu.tsx) /navbar/UserMenu  MenuItem, onClick, label (Login, Sign up) @done(23-07-06 00:10)
         ✔ fin navbar @done(23-07-06 00:14)
+
+Creación Auth UI (login model / modelo de registro): 
+    ✔ CREATE (ClientOnly.tsx) components/ClienOnly @started(23-07-06 23:53) @done(23-07-07 00:05) @lasted(12m14s)
+    ✔ CREATE folder (modals) components/modals @started(23-07-07 00:05) @done(23-07-07 00:07) @lasted(2m2s)
+        ✔ CREATE (Modals.tsx) modals/Modals @started(23-07-07 00:07) @done(23-07-07 00:07) @lasted(39s)
+        ✔ IMPORT useCallback,useEffect,useState @done(23-07-07 00:54)
+        ✔ CREATE interface isOpen, onClose, onSubmit, title, body, footer, actionLabel, disabled, secondaryAction, secondaryLabel @done(23-07-07 00:55)
+        ✔ CREATE div x2 {CONTENT div x2}, {HEADER div, button} @done(23-07-07 00:58)
+        ✔ IMPORT { button/IoMdClose } from 'react-icons/io'; and onClick={handleClose} /* error "Modal" 1:01:55 Auth UI */ @done(23-07-07 00:58) 
+        ✔ CREATE {body, footer} comment @done(23-07-07 01:06)
+    ✔ CREATE (Button.tsx) components/Button @done(23-07-07 01:22)
+        ✔ ADD (Modal.tsx) <Button> disabled={disabled} label={actionLabel} onClick={handleSubmit} @done(23-07-07 01:27)
+    ✔ CREATE folder (hooks) /components/hooks (modelo inicio de sesión) @done(23-07-07 01:34)
+    ✔ EXECUTE npm install zustand @done(23-07-07 01:35)
+    ✔ REVIEW {/* error "Modal" 1:01:55 Auth UI */} @done(23-07-07 02:21)
+    ✔ CREATE (RegisterModal.tsx) /modals/RegisterModal @done(23-07-07 02:59)
+        ✔ EXECUTE npm install axios @done(23-07-07 03:02)
+        ✔ EXECUTE npm install react-hook-form @done(23-07-07 03:07)
+        ✔ ADD const, import useRegisterModal (/navbar/UserMenu) @done(23-07-07 03:45)
+    ✔ CREATE (Heading.tsx) /components/Heading @done(23-07-07 03:52)
+    ✔ CREATE folder (inputs) /components/inputs @done(23-07-07 03:58)
+        ✔ CREATE (Input.tsx) /components/inputs/Input @done(23-07-07 03:59)
+☐ ERROR Unhandled Runtime Error: Objects are not valid as a React child (found: object with keys {children}). If you meant to render a collection of children, use an array instead. (npm i next@latest)
+    ✔ EXECUTE npm install react-hot-toast @done(23-07-07 04:46)
+    ✔ CREATE folder (providers) /app/providers @done(23-07-07 04:48) 
+        ✔ EXECUTE npm install zustand @done(23-07-07 05:20)
+        ✔ CREATE (ToasterProvider.tsx) /providers/ToasterProvider {1:29:49 =>} @done(23-07-07 05:32)
+    
+
+    
