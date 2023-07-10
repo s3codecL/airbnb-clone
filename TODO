@@ -75,6 +75,33 @@ Creación Auth UI (login model / modelo de registro):
     ✔ CREATE folder (providers) /app/providers @done(23-07-07 04:48) 
         ✔ EXECUTE npm install zustand @done(23-07-07 05:20)
         ✔ CREATE (ToasterProvider.tsx) /providers/ToasterProvider {1:29:49 =>} @done(23-07-07 05:32)
-    
+    ✔ ADD /modals/RegisterModal {footer} @done(23-07-10 16:55)
+        ✔ CREATE div x2 account, log in @done(23-07-10 16:56)
+        ✔ CREATE Continue with Google, Github @done(23-07-10 16:57)
+    ✔ FIN Auth IU @done(23-07-10 16:59)
 
-    
+Register functionality, MongoDB, Prisma setup:
+    ✔ EXECUTE npm install prisma @started(23-07-10 17:00) @done(23-07-10 17:01) @lasted(1m53s)
+    ✔ EXECUTE npx prisma init @started(23-07-10 17:01) @done(23-07-10 17:02) @lasted(1m49s)
+        ✔ INSTALL ext prisma @done(23-07-10 17:26)
+    ✔ ADD DATABASE_URL MongoDB @started(23-07-10 17:02) @done(23-07-10 17:21) @lasted(19m28s)
+    ✔ CREATE /prisma/schema.prisma model user @started(23-07-10 17:21) @done(23-07-10 17:22) @lasted(1m16s)
+    ✔ CREATE /prisma/schema.prisma model Account @started(23-07-10 17:22) @done(23-07-10 17:22) @lasted(49s)
+    ✔ CREATE /prisma/schema.prisma model Reservation @started(23-07-10 17:22) @done(23-07-10 17:40) @lasted(18m36s)
+        ✔ EXECUTE npx prisma db push --preview-feature @started(23-07-10 17:40) @done(23-07-10 17:46) @lasted(6m44s)
+        ✔ INSTALL packages npm install next-auth @prisma/client @next-auth/prisma-adapter @started(23-07-10 17:48) @done(23-07-10 17:48) @lasted(8s)
+        ✔ INSTALL npm install bcrypt @started(23-07-10 17:49) @done(23-07-10 17:49) @lasted(12s)
+        ✔ INSTALL npm install -D @types/bcrypt @started(23-07-10 17:49) @done(23-07-10 17:49) @lasted(57s)
+☐ Error: MongoDB error SCRAM failure: bad auth : authentication failed 0: schema_core::commands::schema_push::Calculate `from` at schema-engine\core\src\commands\schema_push.rs:43 1: schema_core::state::SchemaPush at schema-engine\core\src\state.rs:433
+    ✔ CREATE folder (libs) /app/libs @started(23-07-10 17:51) @done(23-07-10 17:52) @lasted(1m)
+        ✔ CREATE (prismadb.ts) /libs/prismadb @started(23-07-10 17:52) @done(23-07-10 17:53) @lasted(1m8s)
+    ✔ CREATE folders (pages) /pages/api/auth, /pages/api/auth/ @started(23-07-10 17:53) @done(23-07-10 18:01) @lasted(8m34s)
+        ✔ CREATE ([...nextauth].ts) /pages/api/auth/[...nextauth] @started(23-07-10 18:01) @done(23-07-10 18:02) @lasted(1m18s)
+    ✔ CREATE folder (api) /app/api @started(23-07-10 18:43) @done(23-07-10 18:43) @lasted(8s)
+        ✔ CREATE folder (register) @started(23-07-10 18:43) @done(23-07-10 18:43) @lasted(36s)
+        ✔ CREATE (route.ts) /app/api/register/route @started(23-07-10 18:43) @done(23-07-10 18:44) @lasted(1m24s)
+        
+
+
+
+
