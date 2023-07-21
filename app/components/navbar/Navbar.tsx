@@ -1,9 +1,11 @@
 'use client';
 
 import Container from "../Container";
+import Categories from "./Categories";
 import Logo from "./Logo";
 import Search from "./Search";
 import UserMenu from "./UserMenu";
+
 import { SafeUser } from "@/app/types";
 
 interface NavbarProps {
@@ -15,7 +17,11 @@ const Navbar: React.FC<NavbarProps> = ({
 }) => {
     return (    
     <div className="fixed w-full bg-white z-10 shadow-sm">
-        <div className="py-4 border-b[1px]">
+        <div 
+            className="
+                py-4 border-b[1px]
+            "
+        >
             <Container>
                 <div
                     className="
@@ -33,6 +39,7 @@ const Navbar: React.FC<NavbarProps> = ({
                 </div>
             </Container>
         </div>
+        <Categories />
     </div>
     );
 }
