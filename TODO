@@ -156,3 +156,17 @@ Categories UI:
         ✔ CHECK 'use client'; /components/navbar @done(23-07-21 02:24)
     ✔ FIN Categories UI @started(23-07-21 00:04) @done(23-07-21 02:26) @lasted(2h22m25s)
 
+Listing creation step 1 (Category selection):
+    ✔ const toggle modal (LoginModal.tsx) /modals/LoginModal.tsx @done(23-07-21 02:52)
+    ✔ const toggle modal (RegisterModal.tsx) /modals/RegisterModal.tsx @done(23-07-21 02:55)
+        ✔ const onRent (UserMenu.tsx) /components/navbar/UserMenu.tsx @done(23-07-21 03:01)
+    ✔ CREATE (useRentModal.ts) /hooks/useRentModal @done(23-07-21 03:03)
+    ✔ CRATE (RentModal.tsx) /components/modals/RentModal.tsx @done(23-07-21 03:05)
+        ✔ ADD (layout.tsx) /app/layout.tsx RentModal /> @done(23-07-21 03:16)
+        ✔ ADD (UserMenu.tsx) /components/navbar/UserMenu.tsx const-import useRenModal @done(23-07-21 03:19)
+        ✔ ADD (enum step) (RentModal.tsx) /components/modals/RentModal.tsx @done(23-07-21 03:24)
+    ✔ CREATE STEPS (RentModal.tsx) bodyContent /components/modals/RentModal @done(23-07-21 03:40)
+    ✔ CREATE (CategoryInput.tsx) /components/inputs/CategoryInput.tsx @done(23-07-21 03:43)
+        ✔ ADD 'use client', import, interface, const, div, class @done(23-07-21 03:52)
+    ✔ FIN Listing creation step 1 (Category selection) @started(23-07-21 02:52) @done(23-07-21 04:07) @lasted(1h15m50s)
+
