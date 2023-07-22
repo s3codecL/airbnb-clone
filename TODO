@@ -170,3 +170,28 @@ Listing creation step 1 (Category selection):
         ✔ ADD 'use client', import, interface, const, div, class @done(23-07-21 03:52)
     ✔ FIN Listing creation step 1 (Category selection) @started(23-07-21 02:52) @done(23-07-21 04:07) @lasted(1h15m50s)
 
+☐ `next.config.js` Loading Error SyntaxError: (":") Unexpected token solved with npm i next@latest (23-07-22 01:25)
+☐ 'latlng' unknown word solved Error (23-07-22 02:03)
+
+Listing creation step 2 (Location selection, Map component, Country autocomplete):
+    ✔ REPLACE const => let {bodycontent} @done(23-07-22 03:05)
+    ✔ REPLACE (onSubmit) Modal BodyContent (RentModal.tsx) /components/modals/RentModal.tsx @done(23-07-22 03:05)
+    ✔ CREATE (CountrySelect.tsx) /components/inputs/CountrySelect.tsx @done(23-07-22 03:10)
+        ✔ ADD (CountrySelect.tsx) const, import, interface, const, div, class @done(23-07-22 03:12)
+    ✔ CREATE (useCountries.ts) /app/hooks/useCountries @done(23-07-22 03:14)
+        ✔ const, import, export @done(23-07-22 03:22)
+    ✔ INSTALL npm install world-countries @done(23-07-22 03:14)
+    ✔ INSTALL npm install react-select @done(23-07-22 03:24)
+    ✔ ADD CountrySelectProps, CountryOption, CountrySelect, useCountries, useCountrySelec (CountrySelect.tsx) /components/inputs/CountrySelect.tsx @done(23-07-22 03:47)
+    ✔ CREATE (Map.tsx) /components/Map.tsx @done(23-07-22 03:51)
+        ✔ INSTALL npm install leaflet @done(23-07-22 03:53)
+        ✔ INSTALL npm install -D @types/leaflet @done(23-07-22 03:55)
+        ✔ INSTALL npm install react-leaflet @done(23-07-22 03:55)
+    ✔ ADD (global.css) .leaflet-(buttom, control, pane, top) @done(23-07-22 04:10)
+
+☐ No se encuentra el nombre 'watch' (RentModal.tsx) /components/modals/RentModal.tsx
+☐ Error: Objects are not valid as a React child (found: object with keys {children}). If you meant to render a collection of children, use an array instead.
+        
+        ✔ ADD (Map.ts) //components/Map.tsx  interface, import, const, div, class @started(23-07-22 04:10) @done(23-07-22 04:35) @lasted(25m17s)
+    ✔ Listing creation step 2 (Location selection, Map component, Country autocomplete) @started(23-07-22 03:05) @done(23-07-22 04:49) @lasted(1h44m34s)
+
