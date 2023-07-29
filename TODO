@@ -193,5 +193,15 @@ Listing creation step 2 (Location selection, Map component, Country autocomplete
 ☐ Error: Objects are not valid as a React child (found: object with keys {children}). If you meant to render a collection of children, use an array instead.
         
         ✔ ADD (Map.ts) //components/Map.tsx  interface, import, const, div, class @started(23-07-22 04:10) @done(23-07-22 04:35) @lasted(25m17s)
-    ✔ Listing creation step 2 (Location selection, Map component, Country autocomplete) @started(23-07-22 03:05) @done(23-07-22 04:49) @lasted(1h44m34s)
+    ✔ FIN Listing creation step 2 (Location selection, Map component, Country autocomplete) @started(23-07-22 03:05) @done(23-07-22 04:49) @lasted(1h44m34s)
 
+Listing creation step 3 (Counter components):
+    ✔ CREATE (Counter.tsx) /components/Counter.tsx @done(23-07-28 21:51)
+☐ No se encuentra el nombre 'watch'.ts(2304) (RentModal.tsx) /components/modals/RentModal.tsx
+        ✔ ADD (Counter.tsx) interface, import, const, div, class @done(23-07-28 21:54)
+        ✔ ADD (Counter.tsx) AiOutlineMinus AiOutlinePlus @started(23-07-28 21:54) @done(23-07-28 22:13) @lasted(19m31s)
+        ✔ ADD counters, setCounters, CounterProps, Counter, useCounters (RentModal.tsx) /components/modals/RentModal.tsx @done(23-07-28 22:13)
+    ✔ FIN Listing creation step 3 (Counter components) @started(23-07-28 21:51) @done(23-07-28 22:13) @lasted(22m55s)
+
+Listing creation step 4 (Image upload, Cloudinary CD):
+    ☐ 
